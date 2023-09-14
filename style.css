@@ -1,0 +1,154 @@
+.round-circle-icon{
+    width: 100px;
+}
+
+.card-width{
+    width: 200px;
+}
+
+.bg-dark{
+    background-color: #FDBE35 !important;
+}
+
+.btn.btn-outline-primary{
+    color:#FFAC0D !important;
+    border: 2px solid #FFAC0D !important;
+    font-family:'Source Sans 3', sans-serif;
+    font-size: 18px;
+}
+
+.fa-solid.fa-location-dot{
+    color: #ff7474 !important;
+}
+
+.btn.btn-warning{
+    background-image: linear-gradient(#FF7A7A,#F65900) !important;
+    color: #fff !important;
+}
+
+.text-prop{
+    font-family:'Qwigley', cursive;
+    font-weight:400;
+    font-size:24px;
+}
+
+.Image.location{
+    color:
+    #FFB30E !important;
+}
+
+.card-text{
+    background-color: rgba(241, 114, 40, 0.2);
+    color:#F17228;
+    border-radius:8px;
+    padding: 8px 16px 8px 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+}
+
+.btn.order{
+    background-color: #FFB800 !important;
+    color: #fff;
+}
+
+.btn.ordernow{
+    background-color: #F17228;
+    color:#fff;
+    font-size: 12px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.items-title{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.btn.Subscribe{
+    background-color: #FFB800;
+    color: #fff;
+}
+
+.text-heading{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+}
+
+.orange-shadow{
+    box-shadow: 0 1rem 3rem rgba(189, 139, 32, 0.1)!important;
+}
+
+.text-white{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.img-thumbnail{
+    width: 100px !important;
+}
+
+.how-work{
+    font-size: 32px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    color:#F17228;
+}
+
+.search{
+    background-color: hsl(52, 31%, 95%);
+    margin: 20px 0; 
+}
+
+.serach-food{
+    color: #212121;
+    margin: 20px;
+    padding-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.pop-item-heading{
+    color: #212121;
+     margin:30px;
+     font-size: 32px;
+    font-weight: 700;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.best-deal-heading{
+    color: #212121;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.best-deal-desc{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #616161;
+}
+
+.fw-normal{
+    color: #FFB800;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+ }
+
+ .card{
+    border:none;
+ }
+      

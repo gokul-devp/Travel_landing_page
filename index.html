@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Qwigley&family=Source+Sans+3&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container text-center p-4">
+        <div class="row align-items-center">
+          <div class="col">
+            <img src="./images/logo.svg" class="img-thumbnail" alt="logo" />
+          </div>
+          <div class="col col-md-6">
+            Deliver to:
+            <img
+              src="./images/map-marker-alt.svg"
+              class="Image"
+              alt="location"
+            />
+            LocationAshok Nagar, Chennai-600013
+          </div>
+          <div class="col">
+            <img src="./images/Searchicon.svg" alt="search" class="Image" />
+            Search Food
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-outline-primary">
+              <i class="far fa-user pr-2"></i> Login
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1sr row completed -->
+
+      <!-- row align-items-center banner -->
+      <div class="p-3 mb-4 row align-items-center rounded bg-dark">
+        <div class="col-md-7">
+          <label class="text-prop">Look at your fav Meals</label> <br />
+          <label>
+            Within a few clicks, find meals that are accessible near you</label
+          >
+          <br />
+          <div class="p-3 mt-3" style="background: #fff">
+            <div style="display: flex; flex-direction: row">
+              <div
+                style="
+                  background-color: rgba(241, 114, 40, 0.2);
+                  padding: 8px 16px 8px 16px;
+                  border-radius: 10px;
+                "
+              >
+                <img
+                  src="./images/bike-icon.svg"
+                  class="img"
+                  alt="Deliverybybike"
+                />
+                <label style="color: #f17228; font-weight: bolder"
+                  >Delivery</label
+                >
+              </div>
+              <div class="ms-3">
+                <img
+                  src="./images/pickIcon.svg"
+                  class="Image ms-lg-5"
+                  alt="pikup"
+                />
+                <label class="ms-lg-2">Pickup</label>
+              </div>
+            </div>
+            <div class="input-group mt-3">
+              <span class="input-group-text"
+                ><i class="fa-solid fa-location-dot"></i
+              ></span>
+              <input
+                id="search-input"
+                type="search"
+                id="form1"
+                placeholder="Enter Your Address "
+                class="form-control"
+              />
+              <button id="search-button" type="button" class="btn btn-warning">
+                <i class="fas fa-search"> </i>
+                Find Food
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 align-item-center">
+          <img
+            src="./images/fullmeals-img.svg"
+            class="img-fluid" 
+            alt="full meals"
+          />
+        </div>
+      </div>
+      <!-- 2ndrow -->
+      <div class="row">
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./images/ulundhu.png" class="card-img-top" alt="Vada" />
+            <div class="card-body">
+              <h5 class="card-title">Vada</h5>
+              <label class="card-text"> 30 min Delivery </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./images/Idly.png" class="card-img-top" alt="Idly" />
+            <div class="card-body">
+              <h5 class="card-title">Idly</h5>
+              <label class="card-text">30 min Delivery </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img
+              src="./Images/parotta.png"
+              class="card-img-top"
+              alt="Parotta"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Paratota</h5>
+              <label class="card-text"> 30 min Delivery </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img
+              src="./images/kitchadi.png"
+              class="card-img-top"
+              alt="Kitchadi"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kitchadi</h5>
+              <label class="card-text"> 30 min Delivery </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 
+      3rd row start -->
+      <section class="text-center">
+        <label class="how-work mt-5 mb-5"> How does it work</label>
+
+        <div
+          class="row d-flex justify-content-center shadow-lg orange-shadow p-lg-4 mb-lg-5 ms-lg-5 me-lg-5 bg-white rounded"
+        >
+          <div class="col-lg-3 col-md-6 position-relative">
+            <div class="row">
+              <img
+                src="./images/percentage.svg"
+                class="img-thumbnail"
+                alt="discount%"
+              />
+              <div class="col">
+                <label class="fw-normal mb-0">Daily Discounts</label>
+                <div
+                  class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 ms-lg-5 me-lg-5 position-relative">
+            <div class="row">
+              <img
+                src="./images/live-trace-icon.svg"
+                class="img-thumbnail"
+                alt="live-tracing"
+              />
+              <div class="col">
+                <label class="fw-normal mb-0"> Live Tracing</label>
+                <div
+                  class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 position-relative">
+            <div class="row">
+              <img
+                src="./images/clock-icon.svg"
+                class="img-thumbnail"
+                alt="time-clock"
+              />
+              <div class="col">
+                <label class="fw-normal mb-0">Quick Delivery</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --4th row-- -->
+      <div class="search">
+        <label class="serach-food"> Search by Food</label>
+        <div class="row">
+          <div class="col-6 col-sm-4 col-md-2 text-center">
+            <img
+              class="rounded-circle round-circle-icon"
+              alt="Dosa"
+              src="./images/Dosa.png"
+            />
+            <figcaption>Dosa</figcaption>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2  text-center">
+            <figure>
+              <img
+                class="rounded-circle round-circle-icon"
+                alt="Aappam"
+                src="./images/Appam.png"
+              />
+              <figcaption>Aappam</figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2  text-center">
+            <figure>
+              <img
+                class="rounded-circle round-circle-icon"
+                alt="puttu"
+                src="./images/puttu.png"
+              />
+              <figcaption>puttu</figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 text-center">
+            <figure>
+              <img
+                class="rounded-circle round-circle-icon"
+                alt="Idiyappam"
+                src="./images/Idiyappam.png"
+              />
+              <figcaption>Idiyappam</figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 text-center">
+            <figure>
+              <img
+                class="rounded-circle round-circle-icon"
+                alt="pongal"
+                src="./images/Pongal.png"
+              />
+              <figcaption>pongal</figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2  text-center">
+            <figure>
+              <img
+                class="rounded-circle round-circle-icon"
+                alt="Vegrice"
+                src="./images/Vegrice.png"
+              />
+              <figcaption>Vegrice</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <!-- split row -->
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-6 content">
+          <label class="best-deal-heading"
+            >Best deals<span style="color: #ffb30e"> Crispy Diffen</span>
+          </label>
+          <label class="best-deal-desc mt-2 mb-5"
+            >Enjoy the large size of Dosa. Complete perfect slice of
+            Dosa.</label
+          >
+          <button type="button" class="btn order mb-5">Proceed to order ></button>
+        </div>
+        <div class="col-lg-8 col-md-6">
+          <img
+            src="./images/diffin-img.png"
+            class="img-fluid rounded"
+            alt="Meals"
+          />
+        </div>
+      </div>
+
+      <!-- card group -->
+      <div class="text-center">
+        <label class="pop-item-heading"> Popular items</label>
+      </div>
+      <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/murruku.png"
+              class="card-img-top"
+              alt="Murruku"
+            />
+            <div class="card-body" style="text-align: center">
+              <h5 class="items-title">Murruku</h5>
+              <button type="button" class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/paniyaram.svg"
+              class="card-img-top"
+              alt="Paniyaram"
+            />
+            <div class="card-body" style="text-align: center">
+              <h5 class="items-title">Paniyaram</h5>
+              <button type="button" class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/seeval.png"
+              class="card-img-top"
+              alt="Seeval Murruku"
+            />
+            <div class="card-body" style="text-align: center">
+              <h5 class="items-title">Seeval Muruku</h5>
+              <button type="button" class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/mixture.png"
+              class="card-img-top"
+              alt="Mixture"
+            />
+            <div class="card-body" style="text-align: center">
+              <h5 class="items-title">Mixture</h5>
+              <button type="button" class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/vegsoup.png"
+              class="card-img-top"
+              alt="vegsoup"
+            />
+            <div class="card-body" style="text-align: center">
+              <h5 class="items-title">Veg Soup</h5>
+              <button type="button" class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/jamun.png"
+              class="card-img-top"
+              alt="Seeval Murruku"
+            />
+            <div class="card-body" style="text-align: center">
+              <h5 class="items-title">Gulab Jamun</h5>
+              <button type="button" class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/p_urundai.png"
+              class="card-img-top"
+              alt="p_urundai"
+            />
+            <div class="card-body" style="text-align: center">
+              <h6 class="items-title">Porivellangai Urundai</h6>
+              <button type="button" class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/jangiri.png"
+              class="card-img-top"
+              alt="jangiri"
+            />
+            <div class="card-body" style="text-align: center">
+              <h5 class="items-title">jangiri</h5>
+              <button type="button" class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/laddu.png" class="card-img-top" alt="laddu" />
+            <div class="card-body" style="text-align: center">
+              <h5 class="items-title">laddu</h5>
+              <button type="button" class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/halwa.png" class="card-img-top" alt="halwa" />
+            <div class="card-body" style="text-align: center">
+              <h5 class="items-title">Halwa</h5>
+              <button type="button" class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+      <div class="container my-5">
+        <!-- Footer -->
+        <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #090d12"
+        >
+          <!-- Section: Social media -->
+          <section
+            class="d-flex justify-content-between p-4"
+            style="background-color: #090d12"
+          >
+            <!-- Left -->
+            <div class="me-5">
+              <span></span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <!-- Right -->
+          </section>
+          <!-- Section: Social media -->
+
+          <!-- Section: Links  -->
+          <section class="">
+            <div class="container text-center text-md-start mt-4">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-2 col-xl-2 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-heading">Company</h6>
+                  <label>
+                    <a href="#!" class="text-white">About us</a>
+                  </label>
+                  <div>
+                    <a href="#!" class="text-white">Team</a>
+                  </div>
+                  <div>
+                    <a href="#!" class="text-white">Careers</a>
+                  </div>
+                  <div>
+                    <a href="#!" class="text-white">Blog</a>
+                  </div>
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-2 col-xl-2 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-heading">Contact</h6>
+
+                  <div>
+                    <a href="#!" class="text-white">Help & Support</a>
+                  </div>
+                  <div>
+                    <a href="#!" class="text-white">Partner with us </a>
+                  </div>
+                  <div>
+                    <a href="#!" class="text-white">Ride with us</a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-2 col-xl-2 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-heading">Legal</h6>
+
+                  <div>
+                    <a href="#!" class="text-white">Terms & Conditions</a>
+                  </div>
+                  <div>
+                    <a href="#!" class="text-white">Refund & Cancellation</a>
+                  </div>
+                  <div>
+                    <a href="#!" class="text-white">Privacy Policy</a>
+                  </div>
+                  <div>
+                    <a href="#!" class="text-white">Cookie Policy</a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+
+                <div class="col-lg-6 col-xl-4 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Follow us</h6>
+                  <div class="mb-3 mt-3">
+                    <i class="fab fa-instagram" style="opacity: 30%"></i>
+                    <i
+                      class="fab fa-facebook-f fa-lg ms-2 me-2"
+                      style="opacity: 30%"
+                    ></i>
+                    <i class="fab fa-twitter" style="opacity: 30%"></i>
+                  </div>
+                  <p>Receive exclusive offers in your mailbox</p>
+                  <div style="display: flex">
+                    <div class="input-group">
+                      <span class="input-group-text"
+                        ><i class="bi bi-envelope"></i
+                      ></span>
+                      <input
+                        id="search-input"
+                        id="form1"
+                        placeholder="Enter Your email"
+                        class="form-control"
+                      />
+                    </div>
+                    <button
+                      id="search-button"
+                      type="button"
+                      class="btn btn-warning"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+
+                  <!-- <p>Enter Your email</p>
+            
+                <p>
+                  <button type="button" class="btn Subscribe">Subscribe</button>
+                </p> -->
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
+
+          <!-- Copyright -->
+          <div class="p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            All rights Reserved ©
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </div>
+      <!-- End of .container -->
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
